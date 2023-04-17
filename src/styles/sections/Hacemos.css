@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+.hacemoscont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.contenlaeimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.enlaceseinfo{
+    float: left;
+    
+}
+
+.enlaces{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.enlaces__link{
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+.w{
+    background-color: #EA429A;
+}
+
+.t{
+    background-color: #2E205B;
+}
+
+.i{
+    background-color: #9357AE;
+}
+
+.f{
+    background-color: #442F87;
+}
+
+.hacemoscont__titulo{
+    font-family: 'Share', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    width: 70%;
+    color: #000000;
+    margin: 10px 0;
+    padding: 0;
+    margin-bottom: 55px;
+}
+
+.hacemos__contimg{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hacemos__img{
+    width: 220px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .hacemoscont{
+        padding: 0;
+    }
+    .hacemoscont__titulo{
+        width: 90%;
+        margin: 25px 0;
+        font-size: 25px;
+    }
+    .hacemos__contimg{
+        width: 100%;
+    }
+    .hacemos__img{
+        width: 100%;
+    }
+    .enlaces{
+        margin-left: 5px;
+    }
+}

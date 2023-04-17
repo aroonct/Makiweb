@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+.inclusioncont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inclusioncont__titulo{
+    font-family: 'Share', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.inclusioncont__contdivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inclusioncont__div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+
+}
+
+.inclusioncont__div__titulo{
+    width: 50%;
+    font-family: 'Share', cursive;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.inclusioncont__div__img{
+    width: 50%;
+}
+
+.dt{
+    text-align: right;
+}
+
+.it{
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .inclusioncont__div{
+        flex-direction: column;
+    }
+    .inclusioncont__div__titulo{
+        width: 100%;
+        font-size: 27px;
+    }
+    .inclusioncont__div__img{
+        width: 100%;
+    }
+    .inclusioncont__titulo{
+        font-size: 32px;
+    }
+    .dt{
+        text-align: center;
+    }
+    .it{
+        text-align: center;
+    }
+}
